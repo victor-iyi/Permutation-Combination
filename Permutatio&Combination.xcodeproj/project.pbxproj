@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		57B6CAD71D3AF6DA006F696D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6CAD61D3AF6DA006F696D /* main.m */; };
+		57B6CADF1D3AF993006F696D /* MathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6CADE1D3AF993006F696D /* MathHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		57B6CAD31D3AF6DA006F696D /* Permutatio&Combination */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Permutatio&Combination"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B6CAD61D3AF6DA006F696D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57B6CADD1D3AF993006F696D /* MathHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathHelper.h; sourceTree = "<group>"; };
+		57B6CADE1D3AF993006F696D /* MathHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				57B6CAD61D3AF6DA006F696D /* main.m */,
+				57B6CADD1D3AF993006F696D /* MathHelper.h */,
+				57B6CADE1D3AF993006F696D /* MathHelper.m */,
 			);
 			path = "Permutatio&Combination";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57B6CAD71D3AF6DA006F696D /* main.m in Sources */,
+				57B6CADF1D3AF993006F696D /* MathHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
